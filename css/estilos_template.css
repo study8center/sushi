@@ -1,0 +1,239 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300');
+
+body{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+nav{
+	width: 100%;
+	height: 70px;
+	background-color: #A1C133;
+}
+header{
+	width: 100%;
+	height: 600px;
+	background-image: url(../img/header.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom center;
+}
+section#promo{
+	width: 100%;
+	height: 400px;
+	background-image: url(../img/bg_bienvenida.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom center;
+}
+section#contenidos{
+	width: 100%;
+	height: 600px;
+	background-image: url(../img/fondoEspecialidades.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom center;
+}
+section#mapa{
+	width: 100%;
+	height: 550px;
+	background-color: white;
+}
+footer{
+	width: 100%;
+	height: 200px;
+	background-color: rgba(161,193,51,1.00);
+}
+
+div#centrarNav, div#centrarHeader, div#centrarPromo,
+div#centrarContenidos, div#centrarMapa, div#centrarFooter{
+	width: 1200px;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(255,192,203,0.50);
+	position: relative;
+}
+div#centrarNav img{
+	float: left;
+	margin-left: 9px;
+	margin-top: 10px;
+	margin-right: 62px;
+}
+ul#menu{
+	float: left;
+	list-style: none;
+}
+ul#menu li{
+	float: left;
+	margin-right: 20px;
+}
+ul#menu a{
+	display: block;
+	width: 90px;
+	height: 70px;
+	text-align: center;
+	line-height: 70px;
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+}
+ul#menu a:hover{
+	background-color: #FF5E60;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+ul#sociales{
+	list-style: none;
+	float: right;
+	margin-top: 25px;
+}
+ul#sociales li{
+	float: left;
+	margin-left: 15px;
+}
+div#facebook{
+	background-image: url(../img/redes/facebook.svg);
+	width: 10px;
+	height: 19px;
+}
+div#facebook:hover{
+	background-image: url(../img/redes/facebook2.svg);
+}
+div#twitter{
+	background-image: url(../img/redes/twitter.svg);
+	width: 22px;
+	height: 18px;
+	margin-top: 2px;
+}
+div#twitter:hover{
+	background-image: url(../img/redes/twitter2.svg);
+}
+div#instagram{
+	background-image: url(../img/redes/instagram.svg);
+	width: 20px;
+	height: 20px;
+}
+div#instagram:hover{
+	background-image: url(../img/redes/instagram2.svg);
+}
+div#boxPromo{
+	width: 500px;
+	height: 190px;
+	position: absolute;
+	top: 114px;
+	left: 664px;
+}
+div#boxPromo  h2{
+	color: #A1C133;
+	font-size: 40px;
+	font-weight: 100;
+	text-align: right;
+	margin-bottom: 20px;
+}
+div#boxPromo  h3{
+	color: #000;
+	font-size: 25px;
+	font-weight: 100;
+	text-align: right;
+	margin-bottom: 20px;
+}
+div#ubicacion{
+	width: 720px;
+	height: 285px;
+	background-color: #A1C133;
+	position: absolute;
+	top: 200px;
+	left: 236px;
+}
+iframe{
+	width: 676px;
+	height: 322px;
+	margin-left: 22px;
+	margin-top: -70px;
+	box-shadow: 0 3px 7px rgba(0,0,0,0.75);
+}
+div.boxFooter{
+	width: 276px;
+	height: 122px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 40px;
+	color: white;
+}
+/* Footer A*/
+div.boxFooter img{
+	float: left;
+}
+ul#menuVertical{
+	float: right;
+	margin-right: 40px;
+	list-style: none;
+}
+ul#menuVertical li{
+	margin-bottom: 10px;
+}
+ul#menuVertical a{
+	color: white;
+	text-decoration: none;
+}
+/*Footer B*/
+ul#socialesFooter{
+	list-style: none;
+}
+ul#socialesFooter li{
+	margin-bottom: 10px;
+	margin-left: 20px;
+}
+ul#socialesFooter a{
+	color: white;
+	text-decoration: none;
+}
+ul#socialesFooter div{
+	float: left;
+	margin-right: 30px;
+	margin-left: 30px;
+}
+
+/*Footer C*/
+.boxFooter h5{
+	font-size: 14px;
+	font-weight: 100;
+	margin-bottom: 10px;
+}
+.boxFooter input{
+	width: 200px;
+	height: 40px;
+	border: solid 1px white;
+	background-color: transparent;
+	padding-left: 10px;
+}
+.boxFooter button{
+	width: 60px;
+	height: 42px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	margin-left: -5px;
+}
+.boxFooter button:hover{
+	background-color: rgba(230,57,0,1.00);
+	color: white;
+	cursor: pointer;
+}
+::-webkit-input-placeholder{color: white;}
+
+/*Footer D*/
+.boxFooter h6{
+	font-size: 14px;
+	font-weight: 100;
+	margin-bottom: 10px;
+	margin-left: 20px;
+}
