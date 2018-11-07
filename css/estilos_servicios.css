@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/* CSS Document */
+
+section#contenidos{
+	height: 833px;
+}
+
+div#boxAcordeon{
+	width: 557px;
+	height: 558px;
+	background-color: skyblue;
+	position: absolute;
+	top: 148px;
+	left: 10px;
+}
+div#boxTabs{
+	width: 480px;
+	height: 553px;
+	background-color: skyblue;
+	position: absolute;
+	top: 148px;
+	left: 714px;
+}
+div#Accordion1 img{
+	width: 250px;
+	float: left;
+	margin-right: 20px;
+}
+div#Accordion1 h4{
+	font-family: Arial;
+	font-size: 20px;
+	color: #FF5E60;
+	font-weight: bold;
+	margin-bottom: 20px;
+	margin-top: 40px;
+}
+div#Accordion1 p{
+	font-family: Arial;
+	font-size: 14px;
+	color: #FF5E60;
+}

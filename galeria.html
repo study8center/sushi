@@ -9,6 +9,35 @@
 <!-- InstanceBeginEditable name="head" -->
 	<!-- Aqui van las hojas de estilo -->
 	<link rel="stylesheet" href="css/estilos_galeria.css">
+
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function MM_setTextOfLayer(objId,x,newText) { //v9.0
+  with (document) if (getElementById && ((obj=getElementById(objId))!=null))
+    with (obj) innerHTML = unescape(newText);
+}
+</script>
 <!-- InstanceEndEditable -->
 </head>
 
@@ -60,9 +89,39 @@
 		<div id="centrarContenidos">
 			<!-- InstanceBeginEditable name="Area de Contenidos" -->
 			<h2 class="titulos">Nuestra Galeria</h2>
-			<div id="descripcion"></div>
-			<div id="miniaturas"></div>
-			<div id="picture"></div>
+			<div id="descripcion">
+				<h3>Zanahoria 130g</h3>
+		  	  <p>Zanahoria por fuera, atún, aguacate, queso crema y ajonjolí negro; servido con salsa spicy</p>
+			</div>
+			<div id="miniaturas">
+				
+				<a href="javascript:;" onClick="MM_swapImage('foto','','img/galeria/big1.jpg',0)">
+					<img src="img/galeria/mini1.jpg" onClick="MM_setTextOfLayer('descripcion','','&lt;h3&gt;Zanahoria 130g&lt;/h3&gt;			  	&lt;p&gt;Zanahoria por fuera, atún, aguacate, queso crema y ajonjolí negro; servido con salsa spicy&lt;/p&gt;')" border="0">
+				</a>
+				
+				<a href="javascript:;" onClick="MM_swapImage('foto','','img/galeria/big2.jpg',0)">
+					<img src="img/galeria/mini2.jpg" onClick="MM_setTextOfLayer('descripcion','','&lt;h3&gt;Camarón 180g&lt;/h3&gt;&lt;p&gt;Camarón por fuera, atún, aguacate, queso crema y ajonjolí negro; servido con salsa spicy&lt;/p&gt;')" border="0">
+				</a>
+				
+				<a href="javascript:;" onClick="MM_swapImage('foto','','img/galeria/big3.jpg',0)">
+					<img src="img/galeria/mini3.jpg" onClick="MM_setTextOfLayer('descripcion','','&lt;h3&gt;Salmon 110g&lt;/h3&gt;			  	&lt;p&gt;Salmon por fuera, atún, aguacate, queso crema y ajonjolí negro&lt;/p&gt;')" border="0">
+				</a>
+				
+				<a href="javascript:;" onClick="MM_swapImage('foto','','img/galeria/big4.jpg',0)">
+					<img src="img/galeria/mini4.jpg" onClick="MM_setTextOfLayer('descripcion','','&lt;h3&gt;Aguacate 130g&lt;/h3&gt;			  	&lt;p&gt;Aguacate por fuera, atún, aguacate, queso crema y ajonjolí negro; servido con salsa spicy&lt;/p&gt;')" border="0">
+				</a>
+				
+				<a href="javascript:;" onClick="MM_swapImage('foto','','img/galeria/big5.jpg',0)">
+					<img src="img/galeria/mini5.jpg" onClick="MM_setTextOfLayer('descripcion','','&lt;h3&gt;Atún 130g&lt;/h3&gt;			  	&lt;p&gt;Atún, aguacate, queso crema y ajonjolí negro; servido con salsa spicy&lt;/p&gt;')" border="0">
+				</a>
+				
+				<a href="javascript:;" onClick="MM_swapImage('foto','','img/galeria/big6.jpg',0)">
+					<img src="img/galeria/mini6.jpg" onClick="MM_setTextOfLayer('descripcion','','&lt;h3&gt;Queso Manchego 130g&lt;/h3&gt;			  	&lt;p&gt;Queso manchego y ajonjolí negro; servido con salsa spicy&lt;/p&gt;')" border="0">
+				</a>
+			</div>
+			<div id="picture">
+			  <img id="foto" src="img/galeria/big1.jpg">
+			</div>
 			<!-- InstanceEndEditable -->
 		</div>
 	</section>

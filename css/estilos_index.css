@@ -4,13 +4,7 @@ section#contenidos{
 	height: 950px;
 }
 
-h2.titulos{
-	text-align: center;
-	font-size: 40px;
-	font-weight: 100;
-	color: rgba(161,193,51,1.00);
-	padding-top: 60px;
-}
+
 div.boxEspecial{
 	width: 276px;
 	height: 350px;

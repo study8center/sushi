@@ -1,5 +1,46 @@
 @charset "UTF-8";
 /* CSS Document */
 
-
-
+section#contenidos{
+	height: 930px;
+}
+div#descripcion{
+	width: 329px;
+	height: 161px;
+/*	background-color: tomato;*/
+	position: absolute;
+	top: 238px;
+	left: 85px;
+}
+div#miniaturas{
+	width: 589px;
+	height: 281px;
+	/*background-color: tomato;*/
+	position: absolute;
+	top: 575px;
+	left: 0px;
+}
+div#picture{
+	width: 584px;
+	height: 708px;
+/*	background-color: tomato;*/
+	position: absolute;
+	top: 148px;
+	left: 612px;
+}
+div#descripcion h3{
+	font-size: 40px;
+	font-weight: 300;
+	font-family: "Georgia", helvetica;
+	color: rgba(161,193,51,1.00);
+	margin-bottom: 10px;
+}
+div#descripcion p{
+	font-size: 16px;
+	font-weight: 100;
+	color: #F4F4F4;
+}
+div#miniaturas img{
+	margin-right: 15px;
+	margin-bottom: 10px;
+}
