@@ -8,18 +8,16 @@ section#contenidos{
 div#boxAcordeon{
 	width: 557px;
 	height: 558px;
-	background-color: skyblue;
 	position: absolute;
 	top: 148px;
 	left: 10px;
 }
 div#boxTabs{
-	width: 480px;
+	width: 550px;
 	height: 553px;
-	background-color: skyblue;
 	position: absolute;
 	top: 148px;
-	left: 714px;
+	left: 630px;
 }
 div#Accordion1 img{
 	width: 250px;
@@ -39,3 +37,22 @@ div#Accordion1 p{
 	font-size: 14px;
 	color: #FF5E60;
 }
+div#Tabs1 img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+div#Tabs1 p{
+	-webkit-column-count: 2;
+	-moz-column-count: 2;
+	column-count: 2;
+	-webkit-column-gap: 15px;
+	-moz-column-gap: 15px;
+	column-gap: 15px;
+	font-size: 13px;
+	margin-top: 10px;
+	line-height: 18px;
+}
+
+

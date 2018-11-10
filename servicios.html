@@ -10,10 +10,12 @@
 	<!-- Aqui van las hojas de estilo -->
 	<link href="css/estilos_servicios.css" rel="stylesheet">
 	<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
-	<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+	<link href="jQueryAssets/jquery-ui.theme.min.css" rel="stylesheet" type="text/css">
 	<link href="jQueryAssets/jquery.ui.accordion.min.css" rel="stylesheet" type="text/css">
+	<link href="jQueryAssets/jquery.ui.tabs.min.css" rel="stylesheet" type="text/css">
 <script src="jQueryAssets/jquery-1.11.1.min.js"></script>
 <script src="jQueryAssets/jquery.ui-1.10.4.accordion.min.js"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.tabs.min.js"></script>
 <!-- InstanceEndEditable -->
 </head>
 
@@ -106,12 +108,48 @@
 			
 			
 			<!-- Divisor para los Tabs -->
-			<div id="boxTabs"></div>
+			<div id="boxTabs">
+			  <div id="Tabs1">
+				  <ul>
+				    <li><a href="#tabs-1">Paquete 1</a></li>
+				    <li><a href="#tabs-2">Paquete 2</a></li>
+				    <li><a href="#tabs-3">Paquete 3</a></li>
+					<li><a href="#tabs-4">Paquete 4</a></li>
+			    </ul>
+				  <div id="tabs-1">
+					  <img src="img/servicios/foodgallery-tab1.png">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, tempora atque in aspernatur cupiditate voluptate vitae aut voluptates blanditiis. Dolorem facere cumque unde tempore sit quidem repellendus assumenda, eligendi iure.
+					  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, tempora atque in aspernatur cupiditate voluptate vitae aut voluptates blanditiis. Dolorem facere cumque unde tempore sit quidem repellendus assumenda, eligendi iure.
+					  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, tempora atque in aspernatur cupiditate voluptate vitae aut voluptates blanditiis. Dolorem facere cumque unde tempore sit quidem repellendus assumenda, eligendi iure.</p>
+			    </div>
+				  <div id="tabs-2">
+					  <img src="img/servicios/serv2.jpg" alt="">
+				    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, tempora atque in aspernatur cupiditate voluptate vitae aut voluptates blanditiis. Dolorem facere cumque unde tempore sit quidem repellendus assumenda, eligendi iure.
+					  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, tempora atque in aspernatur cupiditate voluptate vitae aut voluptates blanditiis. Dolorem facere cumque unde tempore sit quidem repellendus assumenda, eligendi iure.
+					  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, tempora atque in aspernatur cupiditate voluptate vitae aut voluptates blanditiis. Dolorem facere cumque unde tempore sit quidem repellendus assumenda, eligendi iure.</p>
+			    </div>
+				  <div id="tabs-3">
+					  <img src="img/servicios/serv3.jpg" alt="">
+				    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, tempora atque in aspernatur cupiditate voluptate vitae aut voluptates blanditiis. Dolorem facere cumque unde tempore sit quidem repellendus assumenda, eligendi iure.
+					  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, tempora atque in aspernatur cupiditate voluptate vitae aut voluptates blanditiis. Dolorem facere cumque unde tempore sit quidem repellendus assumenda, eligendi iure.
+					  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, tempora atque in aspernatur cupiditate voluptate vitae aut voluptates blanditiis. Dolorem facere cumque unde tempore sit quidem repellendus assumenda, eligendi iure.</p>
+			    </div>
+				  <div id="tabs-4">
+					  <img src="img/servicios/serv4.jpg" alt="">
+				    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, tempora atque in aspernatur cupiditate voluptate vitae aut voluptates blanditiis. Dolorem facere cumque unde tempore sit quidem repellendus assumenda, eligendi iure.
+					  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, tempora atque in aspernatur cupiditate voluptate vitae aut voluptates blanditiis. Dolorem facere cumque unde tempore sit quidem repellendus assumenda, eligendi iure.
+					  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, tempora atque in aspernatur cupiditate voluptate vitae aut voluptates blanditiis. Dolorem facere cumque unde tempore sit quidem repellendus assumenda, eligendi iure.</p>
+			    </div>
+			  </div>
+            </div>
 			
 			<script type="text/javascript">
-				$(function() {
+$(function() {
 					$( "#Accordion1" ).accordion(); 
 				});
+$(function() {
+	$( "#Tabs1" ).tabs(); 
+});
             </script>
 			<!-- InstanceEndEditable -->
 		</div>

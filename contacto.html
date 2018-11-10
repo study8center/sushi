@@ -1,19 +1,14 @@
 <!doctype html>
-<html><!-- InstanceBegin template="Templates/template_master.dwt" codeOutsideHTMLIsLocked="false" -->
+<html><!-- InstanceBegin template="/Templates/template_master.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
 <meta charset="UTF-8">
 <!-- InstanceBeginEditable name="doctitle" -->
-<title>Servicios Sushi</title>
+<title>Template Sushi</title>
 <!-- InstanceEndEditable -->
 <link href="css/estilos_template.css" rel="stylesheet">
 <!-- InstanceBeginEditable name="head" -->
 	<!-- Aqui van las hojas de estilo -->
-	<link href="css/estilos_servicios.css" rel="stylesheet">
-	<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
-	<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
-	<link href="jQueryAssets/jquery.ui.accordion.min.css" rel="stylesheet" type="text/css">
-<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
-<script src="jQueryAssets/jquery.ui-1.10.4.accordion.min.js"></script>
+	<link rel="stylesheet" href="css/estilos_contacto.css">
 <!-- InstanceEndEditable -->
 </head>
 
@@ -64,55 +59,43 @@
 	<section id="contenidos">
 		<div id="centrarContenidos">
 			<!-- InstanceBeginEditable name="Area de Contenidos" -->
-			<h2 class="titulos">Nuestros Servicios</h2>
 			
-			<!-- Divisor para el Acordeon -->
-			<div id="boxAcordeon">
-			  <div id="Accordion1">
-				  <!-- Pestaña 1 -->
-				  <h3><a href="#">Temaki Cangrejo</a></h3>
-				  <div>
-					 <img src="img/galeria/big1.jpg">
-					 <h4>Excepteur sint occaecat cupidatat.</h4>
-				    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
-			    </div>
-				  
-				  <!-- Pestaña 2 -->
-				  <h3><a href="#">Temaki Atún</a></h3>
-				  <div>
-				    <img src="img/galeria/big2.jpg">
-					 <h4>Excepteur sint occaecat cupidatat.</h4>
-				    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
-			    </div>
-				  
-				  <!-- Pestaña 3 -->
-				  <h3><a href="#">Temaki Salmón</a></h3>
-				  <div>
-				    <img src="img/galeria/big3.jpg">
-					 <h4>Excepteur sint occaecat cupidatat.</h4>
-				    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
-			    </div>
-				  
-				  <!-- Pestaña 4 -->
-				  <h3><a href="#">Temaki Camarón</a></h3>
-				  <div>
-				  	<img src="img/galeria/big4.jpg">
-					 <h4>Excepteur sint occaecat cupidatat.</h4>
-				    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
-				  </div>
-				  
-			  </div>
-            </div> <!-- Aqui cierra el boxAcordeon -->
+			<h2 class="titulos">Contactanos</h2>
+			<div id="boxContacto">
+				<form action="mail.php" method="post">
+				<table width="434" border="0">
+				  <tbody>
+					<tr>
+					  <td>Nombre:</td>
+					  <td><input type="text" class="campo" name="nombre" required></td>
+					</tr>
+					<tr>
+					  <td>Correo</td>
+					  <td><input type="email" class="campo" name="email" required></td>
+					</tr>
+					<tr>
+					  <td>Telefono:</td>
+					  <td><input type="tel" class="campo" name="telefono" required></td>
+					</tr>
+					  <tr>
+					  <td>Direccion:</td>
+					  <td><input type="text" class="campo" name="direccion" required></td>
+					</tr>
+					<tr>
+					  <td>Comentarios:</td>
+					  <td><textarea class="campo" name="comentarios" required></textarea></td>
+					</tr>
+					<tr>
+					  <td>&nbsp;</td>
+					  <td><input type="submit" class="enviar"></td>
+					</tr>
+				  </tbody>
+				</table>
+				</form>
+			</div>
 			
+			<div id="boxDireccion"></div>
 			
-			<!-- Divisor para los Tabs -->
-			<div id="boxTabs"></div>
-			
-			<script type="text/javascript">
-				$(function() {
-					$( "#Accordion1" ).accordion(); 
-				});
-            </script>
 			<!-- InstanceEndEditable -->
 		</div>
 	</section>
